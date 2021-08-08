@@ -5,5 +5,6 @@ const randImg = aImages[idx];
 
 const bgImg = document.createElement('img');
 bgImg.src = `img/${randImg}`;
+bgImg.className = 'bgImg';
 
 document.body.appendChild(bgImg);
