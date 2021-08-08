@@ -8,6 +8,7 @@ body {
 
 .bgImg {
   position: absolute;
+  opacity: 0.7;
   top: 0;
   left: 0;
   width: 100%;
@@ -15,9 +16,26 @@ body {
   z-index: -1;
 }
 
-h1, h2, form, div, #clock, span, #todo-list {
+h1, h2, h3, form, div, #clock, #todo-list, input {
   text-align: center;
 }
 
+span {
+  margin-right: 10px;
+}
 
+li {
+  margin-bottom: 5px;
+}
 
+#quote {
+  font-size: 25px;
+  position: fixed;
+  bottom: 0;
+}
+
+#weather {
+  font-size: 25px;
+  position: fixed;
+  top: 0;
+}
