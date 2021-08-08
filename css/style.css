@@ -16,8 +16,20 @@ body {
   z-index: -1;
 }
 
-h1, h2, h3, form, div, #clock, #todo-list, input {
+h1, h2, h3, form, div, #clock, #todo-list{
   text-align: center;
+}
+
+.line {
+  outline: none;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid black;
+}
+
+input::placeholder {
+  color: whitesmoke;
 }
 
 span {
