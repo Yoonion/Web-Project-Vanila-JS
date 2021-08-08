@@ -1,6 +1,7 @@
 
 body {
   font-family: 'Jua', sans-serif;
+  animation: fadein 2s;
 }
 .hidden {
   display: none;
@@ -19,6 +20,7 @@ body {
 h1, h2, h3, form, div, #clock, #todo-list{
   text-align: center;
 }
+
 
 .line {
   outline: none;
@@ -50,4 +52,37 @@ li {
   font-size: 25px;
   position: fixed;
   top: 0;
+}
+
+@keyframes fadein {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+@-moz-keyframes fadein { /* Firefox */
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+@-o-keyframes fadein { /* Opera */
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
 }
